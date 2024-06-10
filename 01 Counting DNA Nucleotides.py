@@ -7,5 +7,6 @@ def count_bases(dna_sequence):
             base_counts[base] += 1
     
     return base_counts
+
 counts = count_bases(dna_sequence)
 print(counts['A'], counts['T'], counts['C'], counts['G'])

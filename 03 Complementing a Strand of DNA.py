@@ -8,5 +8,4 @@ def reverse_complement(dna_sequence):
     
     return reversed_complement_dna
 
-sample_dna = "AAAACCCGGT"
-print(reverse_complement(sample_dna))
+print(reverse_complement(dna_sequence))

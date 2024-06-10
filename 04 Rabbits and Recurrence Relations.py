@@ -11,5 +11,6 @@ def rabbit_pairs(n, k):
         dp[i] = dp[i - 1] + k * dp[i - 2]
     
     return dp[n]
+
 result = rabbit_pairs(n, k)
 print(result)
